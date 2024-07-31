@@ -1,6 +1,10 @@
+import H1 from "@/components/h1";
+
 export default function EventsPage() {
     return (
-      <main>events</main>
+      <main className="flex flex-col items-center py-24 px-[20px] min-h-[110vh]">
+        <H1>All events</H1>
+      </main>
     )
   }
   
